@@ -1,0 +1,24 @@
+
+{
+  "name": "snake_game",
+  "version": "1.0.0",
+  "description": "First bigger proyect",
+  "main": "javGame.js,snake.js", 
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Franciscotran/snake_game.git"
+  },
+  "author": "Francisco Tran",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Franciscotran/snake_game/issues"
+  },
+  "homepage": "https://github.com/Franciscotran/snake_game#readme",
+  "dependencies": {
+    "modules-pack": "^0.8.11"
+  }
+}

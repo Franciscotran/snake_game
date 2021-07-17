@@ -1,20 +1,37 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script defer src="javgame.js"  > </script>
+<html>
+  <head lang="en">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Snake game</title>
+  
+    <link rel="stylesheet"  href="style.css" />
+  </head>
+  <body>
+    <!-- #gameContainer is the main game board-->
+    <div id="gameContainer"></div>
 
-    <link rel="stylesheet" href="style.css">
-   
+    <!-- #scoreContainer contains the scores  -->
+    <div id="scoreContainer">
+      <div class="scoreBoard">Food: <span id="pointsEarned"></span></div>
+      <button > begin</span</button>
+      <button > restart </button>
+      
+      
+    </div>
 
-    <title>Snake Game</title>
-</head>
-<body>
+    <!-- #onScreenControllers contains the navigation buttons for mobile screens -->
+  
+    <div id="onScreenControllers">
+      <button id="leftButton">◀️</button>
+      <div>
+        <button id="upButton">🔼</button>
+        <button id="downButton">🔽</button>
+      </div>
+      <button id="rightButton">▶️</button>
+    </div>
+  </body>
 
-    <div id= "game-board"></div>
-
-</body>
-
+  <!-- #Load our snake_game.js containing the game logic -->
+  <script src="snake_game.js"></script>
 </html>
